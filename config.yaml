@@ -1,0 +1,10 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'My Monstar Hugo Site'
+
+module:
+  mounts:
+  - source: content
+    target: content
+  - source: pre-build/public/monster
+    target: content/monster
